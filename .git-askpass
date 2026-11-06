@@ -1,0 +1,6 @@
+#!/bin/sh
+case "$1" in
+  *Username*) echo "$GITHUB_USERNAME" ;;
+  *Password*) echo "$GITHUB_PAT" ;;
+  *) echo "" ;;
+esac
